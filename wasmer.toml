@@ -1,0 +1,12 @@
+[package]
+name = "syrusakbary/astro-starter-523"
+version = "0.2.4"
+description = "Astro.dev Wasmer starter package"
+readme = "README.md"
+repository = "https://github.com/syrusakbary/astro-starter-523"
+
+[dependencies]
+"wasmer/static-web-server" = "*"
+
+[fs]
+public = "dist"
